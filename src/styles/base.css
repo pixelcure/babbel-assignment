@@ -1,0 +1,75 @@
+@import url('./normalize.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Aldrich&display=swap');
+
+:root {
+    --borderColor: rgba(251, 218, 152, 0.5);
+    --borderRadius: 0.5rem;
+    --lightBrown: #e8d3bd;
+    --brown: #e4b27d;
+    --darkBrown: #bd7b35;
+    --darkGreen: #65b782;
+    --grey: #333;
+    --lightGrey: #ebece1;
+    --orange: #ff8d15;
+    --offWhite: #fffaf0;
+    --red: #ce8989;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background: var(--offWhite);
+    color: var(--grey);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    line-height: 2.3rem;
+}
+
+a:hover {
+    color: var(--brown);
+}
+
+strong {
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: normal;
+    line-height: 2.6rem;
+}
+
+ul {
+    font-size: 1.4rem;
+    padding-left: 1.5rem;
+    margin: 1.5rem 0 0;
+}
+
+/* Scaffolding */
+main {
+    padding-top: 3rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        margin: 0 auto;
+        width: 96rem;
+    }
+}
